@@ -3,8 +3,8 @@ description: >-
   Keystone Masonry, LLC
 baseurl: ""
 url: "https://keystonemasonryks.com"
-port: 4002
-ga_tracking_id: PLACEHOLDER
+port: 4003
+ga_tracking_id: UA-138753823-1
 
 # Social and Contact
 github_url: https://github.com/heatherpekrul/keystonemasonry
