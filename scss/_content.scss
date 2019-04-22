@@ -2,4 +2,12 @@
   background: $white;
   color: $black;
   overflow: auto;
+
+  a {
+    color: $color-primary;
+
+    &:hover {
+      color: darken($color-primary, 0.1);
+    }
+  }
 }

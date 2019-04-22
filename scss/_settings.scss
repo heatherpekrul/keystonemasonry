@@ -50,3 +50,10 @@ $standard-spacing-unit: 1rem;
 /* RESPONSIVE BREAKPOINTS */
 $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
+
+/* WRAPPERS */
+%wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: $standard-spacing-unit;
+}

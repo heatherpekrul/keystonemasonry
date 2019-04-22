@@ -1,0 +1,46 @@
+<footer class="footer">
+  <nav class="footer__nav">
+    <ul>
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+      <li>
+        <a href="#">Photo Gallery</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="footer__contact" itemscope itemtype="http://schema.org/LocalBusiness">
+    <div itemprop="name">
+      {{ site.title }}
+    </div>
+
+    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+      <div itemprop="streetAddress">
+        {{ site.address_line }}
+      </div>
+      <span itemprop="addressLocality">
+        {{ site.address_city }}</span>,
+      <span itemprop="addressRegion">
+        {{ site.address_state }}
+      </span>
+      <span itemprop="postalCode">
+        {{ site.address_zip }}
+      </span>
+    </div>
+
+    <a href="tel:{{ site.phone }}" itemprop="telephone">
+      {{ site.phone }}
+    </a>
+  </div>
+
+  <div class="footer__colophon">
+    &copy; {{ site.footer.copyright }}
+  </div>
+</footer>

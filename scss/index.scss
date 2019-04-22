@@ -28,13 +28,13 @@ body {
 }
 
 a {
-  @extend %font-primary-heavy;
+  @extend %font-primary-semibold;
   text-decoration: underline;
-  color: $color-primary;
+  color: $white;
   transition: color 100ms ease-in;
 
   &:hover {
-    color: darken($color-primary, 0.1);
+    color: $cream;
   }
 }
 

@@ -12,9 +12,9 @@ facebook_url: PLACEHOLDER
 email: heather.pekrul@gmail.com
 phone: 785-123-4567
 address_line: 3910 NE Croco Road
-address_city: Topeka, KS
+address_city: Topeka
+address_state: KS
 address_zip: 66617
-address_country: US
 
 # Footer
 footer:
