@@ -35,9 +35,17 @@
       </span>
     </div>
 
-    <a href="tel:{{ site.phone }}" itemprop="telephone" onclick="ga('send', 'event', 'Phone', 'Click', 'Footer');">
-      {{ site.phone }}
-    </a>
+    <div>
+      <a href="tel:{{ site.phone }}" itemprop="telephone" onclick="ga('send', 'event', 'Phone', 'Click', 'Footer');">
+        {{ site.phone }}
+      </a>
+    </div>
+
+    <div>
+      <a href="mailto:{{ site.email }}" itemprop="email" onclick="ga('send', 'event', 'Email', 'Click', 'Footer');">
+        {{ site.email }}
+      </a>
+    </div>
   </div>
 
   <div class="footer__colophon">
