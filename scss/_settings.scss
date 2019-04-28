@@ -12,28 +12,22 @@ $color-secondary: $charcoal;
 /* TYPOGRAPHY */
 
 /* FONT FAMILIES */
-%font-primary {
+@mixin font-primary($weight: 'normal') {
   font-family: 'Raleway', sans-serif;
+
+  @if ($weight == 'normal') {
+    font-weight: 300;
+  }
+  @else if ($weight == 'semibold') {
+    font-weight: 400;
+  }
+  @else if ($weight == 'heavy') {
+    font-weight: 700;
+  }
 }
 
-%font-accent {
-  font-family: 'Alegreya SC', serif;
-}
-
-/* FONT WEIGHTS */
-%font-primary-normal {
-  font-weight: 300;
-}
-
-%font-primary-semibold {
-  font-weight: 400;
-}
-
-%font-primary-heavy {
-  font-weight: 700;
-}
-
-%font-accent-normal {
+@mixin font-accent {
+  font-family: 'Noto Serif', serif;
   font-weight: 400;
 }
 
@@ -56,4 +50,16 @@ $breakpoint-md: 768px;
   max-width: 960px;
   margin: 0 auto;
   padding: $standard-spacing-unit;
+}
+
+/* UTILITIES */
+%visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0; 
 }

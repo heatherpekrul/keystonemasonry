@@ -10,7 +10,7 @@ ga_tracking_id: UA-138753823-1
 github_url: https://github.com/heatherpekrul/keystonemasonry
 facebook_url: PLACEHOLDER
 email: contact@keystonemasonryks.com
-phone: 785-PLACEHOLDER
+phone: 785-640-5624
 address_line: 3910 NE Croco Road
 address_city: Topeka
 address_state: KS
@@ -22,6 +22,10 @@ footer:
 
 # Build settings
 markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-inline-svg
 
 # Exclude from processing.
 exclude:

@@ -1,7 +1,10 @@
 <header class="header">
   <div class="header__inner">
     <a href="#" class="header__logo">
-      {{ site.title }}
+      {% svg "/images/keystone-masonry-logo.svg" %}
+      <span>
+        {{ site.title }}
+      </span>
     </a>
 
     <nav class="header__nav">
@@ -13,10 +16,15 @@
           <a href="#">About</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#">Photo Gallery</a>
         </li>
         <li>
-          <a href="#">Photo Gallery</a>
+          <a href="#">Testimonials</a>
+        </li>
+        <li>
+          <a href="#" class="btn btn--contact" onclick="ga('send', 'event', 'Contact', 'Click', 'Header');">
+            Contact
+          </a>
         </li>
       </ul>
     </nav>
