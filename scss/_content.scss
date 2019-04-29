@@ -2,16 +2,16 @@
   background: $cream;
   color: $black;
   overflow: auto;
-
-  a {
-    color: $color-primary;
-
-    &:hover {
-      color: darken($color-primary, 10%);
-    }
-  }
 }
 
 .page {
   @extend %wrapper;
+}
+
+.contact {
+  @extend %wrapper;
+
+  &__methods {
+
+  }
 }

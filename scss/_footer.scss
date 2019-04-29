@@ -8,6 +8,14 @@
     flex-wrap: wrap;
   }
 
+  a {
+    color: $white;
+
+    &:hover {
+      color: $cream;
+    }
+  }
+
   &__nav {
     margin: 0 0 1em 0;
 

@@ -1,4 +1,4 @@
-.btn, a.btn {
+.btn {
   display: inline-block;
   padding: 0.5em 1em;
   background: $color-primary;
@@ -6,7 +6,7 @@
   text-decoration: none;
   text-transform: uppercase;
 
-  &--contact {
-
+  &:hover {
+    color: $white;
   }
 }
