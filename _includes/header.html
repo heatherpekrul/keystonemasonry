@@ -1,6 +1,6 @@
 <header class="header">
   <div class="header__inner">
-    <a href="#" class="header__logo">
+    <a href="{{site.baseurl}}/" class="header__logo">
       {% svg "/images/keystone-masonry-logo.svg" %}
       <span>
         {{ site.title }}
@@ -10,20 +10,17 @@
     <nav class="header__nav">
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a href="{{site.baseurl}}">Home</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="{{site.baseurl}}/about">About</a>
         </li>
         <li>
-          <a href="#">Photo Gallery</a>
-        </li>
-        <li>
-          <a href="#">Testimonials</a>
+          <a href="{{site.baseurl}}/gallery">Photo Gallery</a>
         </li>
         <li>
           <a href="#" class="header__contact-cta icon icon--phone" onclick="ga('send', 'event', 'Contact', 'Click', 'Header');">
-            Contact
+            <span>Contact</span>
           </a>
         </li>
       </ul>
