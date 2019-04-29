@@ -1,0 +1,37 @@
+.gallery {
+  &__intro {
+    @extend %wrapper;
+  }
+
+  &__images {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    @media (min-width: $breakpoint-sm) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    li {
+      display: block;
+      padding-bottom: 1em;
+
+      @media (min-width: $breakpoint-sm) {
+        flex: 0 1 50%;
+      }
+
+      &:nth-child(odd) {
+        @media (min-width: $breakpoint-sm) {
+          padding-right: 0.5em;
+        }
+      }
+
+      &:nth-child(even) {
+        @media (min-width: $breakpoint-sm) {
+          padding-left: 0.5em;
+        }
+      }
+    }
+  }
+}
