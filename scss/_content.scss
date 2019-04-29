@@ -12,6 +12,14 @@
   @extend %wrapper;
 
   &__methods {
+    & > a {
+      &:not(:last-child) {
+        margin-bottom: 1em;
 
+        @media (min-width: $breakpoint-sm) {
+          margin-bottom: 0;
+        }
+      }
+    }
   }
 }

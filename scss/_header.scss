@@ -21,7 +21,11 @@
     vertical-align: middle;
 
     svg {
-      width: 150px;
+      width: 100px;
+
+      @media (min-width: $breakpoint-sm) {
+        width: 150px;
+      }
     }
 
     span {
@@ -32,6 +36,11 @@
   &__nav {
     display: inline-block;
     vertical-align: middle;
+    width: calc(100% - 120px);
+
+    @media (min-width: $breakpoint-sm) {
+      width: auto;
+    }
 
     ul {
       display: inline-block;
