@@ -78,6 +78,18 @@
             color: $white;
             padding: 0.5em 1em;
 
+            &:hover {
+              &:before {
+                animation-name: wiggle;
+              }
+            }
+
+            &:before {
+              transition: transform 150ms ease;
+              animation-duration: 750ms;
+              animation-iteration-count: infinite;
+            }
+
             &:after {
               display: none;
             }

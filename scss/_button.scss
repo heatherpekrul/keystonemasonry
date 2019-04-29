@@ -5,8 +5,10 @@
   color: $white;
   text-decoration: none;
   text-transform: uppercase;
+  transition: background-color 150ms ease;
 
   &:hover {
     color: $white;
+    background: $color-secondary;
   }
 }
