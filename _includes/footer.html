@@ -2,29 +2,35 @@
   <nav class="footer__nav">
     <ul>
       <li>
-        <a href="{{site.baseurl}}/">Home</a>
+        <a href="{{site.url}}/">Home</a>
       </li>
       <li>
-        <a href="{{site.baseurl}}/about">About</a>
+        <a href="{{site.url}}/about">About</a>
       </li>
       <li>
-        <a href="{{site.baseurl}}/contact">Contact</a>
+        <a href="{{site.url}}/contact">Contact</a>
       </li>
       <li>
-        <a href="{{site.baseurl}}/gallery">Photo Gallery</a>
+        <a href="{{site.url}}/gallery">Photo Gallery</a>
       </li>
     </ul>
   </nav>
 
   <div class="footer__contact" itemscope itemtype="http://schema.org/LocalBusiness">
+    <meta itemprop="image" content="{{site.url}}/{{site.logo_image}}">
+    <meta itemprop="url" content="{{site.url}}">
+
     <div itemprop="name">
       {{ site.title }}
     </div>
 
     <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-      <div itemprop="streetAddress">
-        {{ site.address_line }}
-      </div>
+      {% if site.address_line %}
+        <div itemprop="streetAddress">
+          {{ site.address_line }}
+        </div>
+      {% endif %}
+
       <span itemprop="addressLocality">
         {{ site.address_city }}</span>,
       <span itemprop="addressRegion">
@@ -36,14 +42,18 @@
     </div>
 
     <div>
-      <a href="tel:{{ site.phone }}" itemprop="telephone" onclick="ga('send', 'event', 'Phone', 'Click', 'Footer');">
-        {{ site.phone }}
+      <a href="tel:{{ site.phone }}" onclick="ga('send', 'event', 'Phone', 'Click', 'Footer');">
+        <span itemprop="telephone">
+          {{ site.phone }}
+        </span>
       </a>
     </div>
 
     <div>
-      <a href="mailto:{{ site.email }}" itemprop="email" onclick="ga('send', 'event', 'Email', 'Click', 'Footer');">
-        {{ site.email }}
+      <a href="mailto:{{ site.email }}" onclick="ga('send', 'event', 'Email', 'Click', 'Footer');">
+        <span itemprop="email">
+          {{ site.email }}
+        </span>
       </a>
     </div>
   </div>

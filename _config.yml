@@ -11,10 +11,11 @@ github_url: https://github.com/heatherpekrul/keystonemasonry
 facebook_page: keystonemasonryks
 email: contact@keystonemasonryks.com
 phone: 785-640-5624
-address_line: 3910 NE Croco Road
+address_line:
 address_city: Topeka
 address_state: KS
 address_zip: 66617
+logo_image: images/keystone-masonry-logo-square.jpg
 
 # Footer
 footer:
