@@ -3,6 +3,7 @@ description: >-
   Keystone Masonry, LLC
 baseurl: ""
 url: "https://keystonemasonryks.com"
+image_dir_url: "/images/"
 port: 4003
 ga_tracking_id: UA-138753823-1
 
