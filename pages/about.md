@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+last_modified_at: 2019-04-30 17:55:00 -0600
 ---
 
 Greg Onnen has worked as a stonemason in Topeka, Kansas since 1988. At Keystone Masonry, Greg strives to craft beautiful, lasting, and functional stone and brick projects.
