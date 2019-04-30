@@ -26,6 +26,7 @@ markdown: kramdown
 # Plugins
 plugins:
   - jekyll-inline-svg
+  - jekyll-sitemap
 
 # Exclude from processing.
 exclude:
