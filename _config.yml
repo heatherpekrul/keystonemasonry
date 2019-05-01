@@ -1,11 +1,15 @@
 title: Keystone Masonry, LLC
 description: >-
   Keystone Masonry, LLC
-baseurl: ""
 url: "https://keystonemasonryks.com"
-image_dir_url: "/images/"
+image_dir: "images"
 port: 4003
 ga_tracking_id: UA-138753823-1
+author: Heather Pekrul
+
+# Branding
+color_primary: "#15426B"
+logo_image: images/keystone-masonry-logo-square.jpg
 
 # Social and Contact
 github_url: https://github.com/heatherpekrul/keystonemasonry
@@ -16,7 +20,6 @@ address_line:
 address_city: Topeka
 address_state: KS
 address_zip: 66617
-logo_image: images/keystone-masonry-logo-square.jpg
 
 # Footer
 footer:
