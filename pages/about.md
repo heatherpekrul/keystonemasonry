@@ -20,6 +20,7 @@ Greg can help with a variety of services, including new structures or repairing 
 * Retaining walls
 * Stone and brick steps
 * Masonry barbecue pits and fireplaces
+* Glass blocks
 
 Areas Served
 ------
@@ -42,3 +43,4 @@ While Keystone Masonry predominately serves the Topeka, Kansas area, Greg will a
 * Holton
 * Oskaloosa
 * Ozawkie
+* Wakarusa
