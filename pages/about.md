@@ -15,12 +15,12 @@ Greg can help with a variety of services, including new structures or repairing 
 * Stone and brick veneers
 * Masonry restoration and repair
 * Stone and brick patios
-* Chimney restoration and repair
 * Masonry planters
 * Retaining walls
 * Stone and brick steps
 * Masonry barbecue pits and fireplaces
 * Glass blocks
+* Other masonry projects
 
 Areas Served
 ------
