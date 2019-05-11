@@ -44,3 +44,4 @@ While Keystone Masonry predominately serves the Topeka, Kansas area, Greg will a
 * Oskaloosa
 * Ozawkie
 * Wakarusa
+* Valley Falls
