@@ -8,6 +8,7 @@
   text-transform: uppercase;
   transition: background-color 150ms ease;
   word-wrap: break-word;
+  border-radius: 0.25em;
 
   &:hover {
     color: $white;
