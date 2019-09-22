@@ -1,0 +1,34 @@
+.form {
+  *:first-child {
+    margin-top: 0;
+  }
+
+  > div {
+    &:not(:last-child) {
+      margin-bottom: 1em;
+    }
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    border: 1px solid $color-secondary;
+    padding: 1em;
+    font-size: 0.8em;
+
+    &:focus {
+      border-color: $color-primary;
+    }
+  }
+
+  input[type="submit"] {
+    @include font-primary(semibold);
+    font-size: 1em;
+  }
+}

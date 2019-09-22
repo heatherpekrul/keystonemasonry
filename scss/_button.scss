@@ -9,9 +9,11 @@
   transition: background-color 150ms ease;
   word-wrap: break-word;
   border-radius: 0.25em;
+  border: none;
 
   &:hover {
     color: $white;
     background: $color-secondary;
+    cursor: pointer;
   }
 }

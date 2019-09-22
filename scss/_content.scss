@@ -22,4 +22,11 @@
       }
     }
   }
+
+  &__form {
+    width: 85%;
+    margin: 1em auto;
+    padding: 1em;
+    background: rgba($white, 0.5);
+  }
 }
