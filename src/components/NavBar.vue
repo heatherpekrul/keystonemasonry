@@ -24,7 +24,7 @@
       </li>
 
       <li>
-        <router-link :to="{ name: 'ContactView' }">
+        <router-link :to="{ name: 'ContactView' }" class="contact">
           Contact
         </router-link>
       </li>
@@ -46,7 +46,11 @@ nav {
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  gap: 2rem;
+  gap: 1rem;
+
+  @media(min-width: settings.$breakpoint-sm) {
+    gap: 2rem;
+  }
 
   .logo {
     img {
@@ -60,7 +64,12 @@ nav {
     padding: 0;
     display: flex;
     flex-flow: row wrap;
-    gap: 2rem;
+    align-items: center;
+    gap: 1rem;
+
+    @media(min-width: settings.$breakpoint-sm) {
+      gap: 2rem;
+    }
 
     li {
       display: inline-block;
@@ -73,6 +82,9 @@ nav {
         text-decoration: none;
         letter-spacing: 0.1em;
         color: var(--color-charcoal);
+        line-height: 1;
+        position: relative;
+        padding: 1rem 0;
 
         &:hover {
           color: var(--color-midnight-blue);
@@ -86,10 +98,30 @@ nav {
           content: '';
           background: var(--color-midnight-blue);
           display: block;
+          position: absolute;
+          bottom: 0.25rem;
+          left: 0;
           width: 0%;
           height: 2px;
-          margin-top: 0.5em;
           transition: width 150ms ease;
+        }
+
+        &.contact {
+          background: var(--color-midnight-blue);
+          color: #fff;
+          padding: 0.75rem;
+          border-radius: 0.25rem;
+          transition: color 0.2s, background-color 0.2s, box-shadow 0.5s;
+          
+          &:focus,
+          &:hover {
+            box-shadow: 0.25em 0.25em 0.5em -0.15em rgba(0,0,0,0.5);
+            background: var(--color-charcoal);
+          }
+
+          &::after {
+            display: none;
+          }
         }
       }
     }

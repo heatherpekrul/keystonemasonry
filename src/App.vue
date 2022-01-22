@@ -32,10 +32,6 @@ html {
   box-sizing: border-box;
 }
 
-* {
-  overflow: auto;
-}
-
 *,
 *:before,
 *:after {
