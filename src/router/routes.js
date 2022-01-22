@@ -15,4 +15,20 @@ export default [
         },
         component: () => import('../views/About.vue'),
     },
+    {
+        path: '/gallery',
+        name: 'GalleryView',
+        meta: {
+            title: 'Gallery'
+        },
+        component: () => import('../views/Gallery.vue'),
+    },
+    {
+        path: '/contact',
+        name: 'ContactView',
+        meta: {
+            title: 'Contact'
+        },
+        component: () => import('../views/Contact.vue'),
+    },
   ];
