@@ -1,4 +1,22 @@
 export default {
+    sizes: [
+        {
+            name: 'small',
+            size: '480',
+        },
+        {
+            name: 'medium',
+            size: '768',
+        },
+        {
+            name: 'large',
+            size: '1024',
+        },
+        {
+            name: 'extra-large',
+            size: '2000',
+        },
+    ],
     images: [
         {
             alt: 'Brick Steps to Entryway',
@@ -18,7 +36,7 @@ export default {
         },
         {
             alt: 'Decorative Stone and Brick',
-            src: '/gallery/decorative/decorative1.jpg',
+            src: '/gallery/decorative/decorative1_extra-large.jpg',
         },
         {
             alt: 'Decorative Stone and Brick Column',
@@ -30,7 +48,7 @@ export default {
         },
         {
             alt: 'Stone and Brick Entryway Façade',
-            src: '/gallery/decorative/entryway.jpg',
+            src: '/gallery/decorative/entryway_extra-large.jpg',
         },
         {
             alt: 'Brick Garage Façade',

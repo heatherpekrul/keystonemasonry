@@ -12,7 +12,11 @@
 
         <section class="gallery">
             <div class="gallery__item" v-for="(image, index) in images" v-bind:key="index">
-                <img :src="image.src" :alt="image.alt" loading="lazy">
+                <img
+                    :src="image.src"
+                    :alt="image.alt"
+                    loading="lazy"
+                >
             </div>
         </section>
     </main>
