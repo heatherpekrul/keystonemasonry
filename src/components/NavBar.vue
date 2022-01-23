@@ -1,7 +1,7 @@
 <template>
   <nav aria-label="Main Navigation">
     <router-link :to="{ name: 'HomeView' }" class="logo">
-      <img src="../assets/logo.svg" :alt="name">
+      <img src="/logo.svg" :alt="name">
     </router-link>
 
     <ul>

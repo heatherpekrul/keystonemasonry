@@ -55,7 +55,7 @@
                 <ul>
                     <li>
                         <a :href="facebookUrl">
-                            <img src="../assets/facebook.svg" alt="Facebook">
+                            <img src="/facebook.svg" alt="Facebook">
                         </a>
                     </li>
                 </ul>
