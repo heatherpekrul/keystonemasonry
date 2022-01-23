@@ -31,4 +31,12 @@ export default [
         },
         component: () => import('../views/Contact.vue'),
     },
+    {
+        path: '/restoration',
+        name: 'RestorationView',
+        meta: {
+            title: 'Restoration'
+        },
+        component: () => import('../views/Restoration.vue'),
+    },
   ];

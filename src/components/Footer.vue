@@ -15,6 +15,12 @@
                 </li>
 
                 <li>
+                    <router-link :to="{ name: 'RestorationView' }">
+                        Restoration
+                    </router-link>
+                </li>
+
+                <li>
                     <router-link :to="{ name: 'GalleryView' }">
                         Gallery
                     </router-link>
