@@ -1,8 +1,10 @@
 <template>
-    <Intro />
-    <section>
-        home
-    </section>
+    <main>
+        <Intro />
+        <section>
+            home
+        </section>
+    </main>
 </template>
 
 <script>

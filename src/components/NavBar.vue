@@ -1,7 +1,7 @@
 <template>
-  <nav>
+  <nav aria-label="Main Navigation">
     <router-link :to="{ name: 'HomeView' }" class="logo">
-      <img src="../assets/logo.svg" alt="Keystone Masonry, LLC">
+      <img src="../assets/logo.svg" :alt="name">
     </router-link>
 
     <ul>
@@ -33,8 +33,14 @@
 </template>
 
 <script>
+import Config from '../config';
 export default {
     name: 'NavBar',
+    data() {
+      return {
+        name: Config.name,
+      };
+    },
 };
 </script>
 
@@ -116,7 +122,6 @@ nav {
           &:focus,
           &:hover {
             box-shadow: 0.25em 0.25em 0.5em -0.15em rgba(0,0,0,0.5);
-            background: var(--color-charcoal);
           }
 
           &::after {
