@@ -1,6 +1,15 @@
 <template>
     <main>
-        <Intro />
+        <Intro>
+            <template v-slot:heading>
+                Create. Renovate. Repair. Update.
+            </template>
+            <template v-slot:content>
+                No matter your masonry project, Keystone Masonry can help. We have experience in a wide variety of stone
+                and brick projects in the Topeka, Kansas area. Contact us today to schedule an appointment with a skilled
+                masonry contractor to discuss your project.
+            </template>
+        </Intro>
         <section class="gallery">
             <div class="gallery__photo featured">
                 <img src="/gallery/home/keystone-archway.jpg" alt="Keystone Archway">

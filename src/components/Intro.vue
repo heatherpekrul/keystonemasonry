@@ -2,13 +2,11 @@
   <section class="intro">
       <div class="container">
         <h1 class="intro__heading">
-            Create. Renovate. Repair. Update.
+            <slot name="heading"></slot>
         </h1>
 
         <div class="intro__content">
-            No matter your masonry project, Keystone Masonry can help. We have experience in a wide variety of stone
-            and brick projects in the Topeka, Kansas area. Contact us today to schedule an appointment with a skilled
-            masonry contractor to discuss your project.
+            <slot name="content"></slot>
         </div>
       </div>
   </section>

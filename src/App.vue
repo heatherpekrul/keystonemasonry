@@ -114,4 +114,27 @@ img {
   max-width: 960px;
   margin: 0 auto;
 }
+
+.button {
+  color: #fff;
+  text-transform: uppercase;
+  background: var(--color-midnight-blue);
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  transition: background-color 0.5s;
+  display: inline-block;
+  margin: 0 1rem 0 0;
+
+  &:hover {
+    background: var(--color-deep-ocean);
+    color: #fff;
+  }
+
+  img {
+    width: 1.25rem;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
 </style>
