@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://keystonemasonryks.com/sitemap.xml

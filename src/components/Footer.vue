@@ -97,6 +97,9 @@ footer {
     a {
         color: #fff;
         font-weight: var(--font-primary-weight-normal);
+        display: inline-block;
+        padding: 0.5em 0;
+        margin: 0 0 0.25em 0;
     }
 
     .footer-contact {
@@ -127,11 +130,6 @@ footer {
             li {
                 margin: 0;
                 padding: 0;
-
-                a {
-                    display: block;
-                    padding: 0.25em 0;
-                }
             }
         }
     }
